@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Stellar.JS Demo</title>
+	<link rel="stylesheet" href="css/style.css" title="mainStyle" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="css/normalize.css" title="normalize" type="text/css" media="screen" charset="utf-8">
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+	<script>
+		$(function(){
+		    $.stellar({
+			    responsive: true,
+			    horizontalScrolling: false,
+				verticalScrolling: true
+				
+		    });
+		});
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<section id="one" class="bgPic" data-stellar-background-ratio=".2">
+			<div data-stellar-ratio="3">
+				<h1>A story of Love</h1>
+			</div>
+		</section>
+	
+		<section id="two" class="bgPic" data-stellar-background-ratio=".3" >
+			<div data-stellar-ratio="3">
+				<h1>For the game</h1>
+			</div>
+		</section>
+	
+		<section id="three" class="bgPic" data-stellar-background-ratio=".5">
+			<div data-stellar-ratio="3" >
+				<h1>& each other</h1>
+			</div>
+		</section>
+	</div>
+		<footer>
+			
+		</footer>
+</body>
+</html>

@@ -39,7 +39,7 @@ Reminder - set the style first then draw.
 window.onload = function(){
 //creating global function for getting the canvas
 
-
+	console.log(Modernizr);
 	//set up canvas part 1
 	var myCanvas1 = document.getElementById("canvasPart1");
 	//using modernizer to check if canvas is supported
